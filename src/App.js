@@ -1,29 +1,30 @@
 import React from "react";
 import "./App.css";
 import PersonCard from "./components/PersonCard";
+import PersonCardFunct from "./components/PersonCardFunct";
 
 function App() {
   return (
     <div className="App">
-      <PersonCard
+      <PersonCardFunct
         firstName={"Jane"}
         lastName={"Doe"}
         age={45}
         hairColor={"Black"}
       />
-      <PersonCard
+      <PersonCardFunct
         firstName={"John"}
         lastName={"Smith"}
         age={88}
         hairColor={"Brown"}
       />
-      <PersonCard
+      <PersonCardFunct
         firstName={"Millard"}
         lastName={"Fillmore"}
         age={50}
         hairColor={"Brown"}
       />
-      <PersonCard
+      <PersonCardFunct
         firstName={"Maria"}
         lastName={"Smith"}
         age={62}
